@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p></p>
+    <script>
+        let panjang=15
+        let lebar=10
+        let luas= panjang * lebar
+        let namaSiswa=["Arun", "Inggil", "Rahmatul", "Putra", "Alfa", "Rozi"]
+        let beratBadan=prompt("Berapa Berat Badanmu ?")
+        let tinggiBadan=prompt("Berapa tinggi badanmu (Dalam Meter) ? ")
+        let bmi= beratBadan / (tinggiBadan * tinggiBadan)
+
+        console.log("Menghitung Luas Persegi Panjang")
+        console.log("Panjang = "+panjang+", Lebar = "+lebar+", Luas = "+luas)
+        console.log(`Panjang = ${panjang}, Lebar = ${lebar}, Luas = ${luas}`)
+        console.log(namaSiswa)
+        console.log("Tinggi Badan = "+tinggiBadan+"M")
+        console.log("Berat Badan = "+beratBadan+"Kg")
+        console.log("BMI = "+bmi)
+
+        if (bmi < 18.5){
+            console.log("Berat badan kurang")
+        }
+        else if (bmi < 23 ){
+            console.log("Berat badan normal")
+        }
+        else if (bmi < 30 ){
+            console.log("Berat badan berlebih")
+        }
+        else {
+            console.log("Obesitas")
+        }
+
+    </script>
+</body>
+</html>

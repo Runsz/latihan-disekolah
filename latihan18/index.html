@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <label for="">Nama</label><br>
+        <input type="text" id="dataNama"> <br>
+        <label for="">Kelas</label><br>
+        <input type="text" id="dataKelas"><br>
+        <label for="">No. Absen</label><br>
+        <input type="number" id="dataNo"><br>
+        <button type="button" onclick="btn()" id="btnSimpan">Simpan</button>
+        <button type="button" onclick="btn2()" id="btnSimpan">Simpan Lagi</button>
+
+    </form>
+
+    <script>
+
+        let daftarSiswa = [] 
+        let siswa1 = {}
+        let siswa2 ={}
+
+        let elemenInput = document.getElementById("dataNama")
+        let elemenInput2 = document.getElementById("dataKelas")
+        let elemenInput3 = document.getElementById("dataNo")
+
+        function btn(){
+            siswa1.nama = elemenInput.value
+            siswa1.kelas = elemenInput2.value
+            siswa1.no = elemenInput3.value
+
+            daftarSiswa.push(siswa1)
+            console.log(daftarSiswa)
+        }
+        function btn2(){
+            siswa2.nama = elemenInput.value
+            siswa2.kelas = elemenInput2.value
+            siswa2.no = elemenInput3.value
+
+            daftarSiswa.push(siswa2)
+            console.log(daftarSiswa)
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.button{
+    padding: 10px;
+    border: 1px dashed blue;
+    width: fit-content;
+    border-radius: 5px;
+}
+.btn{
+    width: 100px;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.btn-primary{
+    background-color:#24A2E9 ;
+}
+.btn-succes{
+    background-color:#50CD89 ;
+}
+.btn-danger{
+    background-color:#E92424 ;
+}
+.btn-warning{
+    background-color:#EFCA10 ;
+}
+.btn-info{
+    background-color:#9747FF ;
+}
+.btn-secondary{
+    margin-right: 0px;
+    background-color:#C2BFC9 
+}
+
+.btn2{
+    width: 100px;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    background-color: white;
+}
+.btn-inline-primary{
+    border: 1px solid #24A2E9 ;
+    border-radius: 5px;
+}
+.btn-inline-succes{
+    border: 1px solid #50CD89 ;
+    border-radius: 5px;
+}
+.btn-inline-danger{
+    border: 1px solid #E92424 ;
+    border-radius: 5px;
+}
+.btn-inline-warning{
+    border: 1px solid #EFCA10 ;
+    border-radius: 5px;
+}
+.btn-inline-info{
+    border: 1px solid #9747FF;
+    border-radius: 5px;
+}
+.btn-inline-secondary{
+    margin-right: 0px;
+    border: 1px solid #C2BFC9 ;
+    border-radius: 5px;
+}
+.btn-dashed-primary{
+    border: 1px dashed #24A2E9 ;
+    border-radius: 5px;
+}
+.btn-dashed-succes{
+    border: 1px dashed #50CD89 ;
+    border-radius: 5px;
+}
+.btn-dashed-danger{
+    border: 1px dashed #E92424 ;
+    border-radius: 5px;
+}
+.btn-dashed-warning{
+    border: 1px dashed #EFCA10 ;
+    border-radius: 5px;
+}
+.btn-dashed-info{
+    border: 1px dashed #9747FF;
+    border-radius: 5px;
+}
+.btn-dashed-secondary{
+    margin-right: 0px;
+    border: 1px dashed #C2BFC9 ;
+    border-radius: 5px;
+}
